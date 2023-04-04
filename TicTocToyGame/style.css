@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Game-main-div {
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 40px;
+}
+.col {
+  border: 2px solid black;
+  height: 100px;
+  width: 140px;
+  font-size: 5rem;
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+}
+.col:hover {
+  background-color: rgba(37, 32, 32, 0.705);
+  color: white;
+}
+.main {
+  position: relative;
+  max-width: 1000px;
+  padding: 50px;
+  min-height: 90vh;
+}
+.line {
+  display: none;
+  position: absolute;
+  border: 2px solid #cc0d0d;
+  max-width: 417px;
+  width: 100%;
+}
+.span {
+  text-align: center;
+  font-size: 1em;
+  height: 100%;
+  width: 100%;
+}
+#one {
+  border-top: 0px;
+  border-left: 0px;
+}
+#two {
+  /* border-top: 0px; */
+  border-left: 0px;
+}
+#three {
+  border-bottom: 0px;
+  border-left: 0px;
+}
+#four {
+  /* border-bottom: 0px; */
+  border-top: 0px;
+}
+#six {
+  border-bottom: 0px;
+  /* border-top: 0px; */
+}
+#saven {
+  border-right: 0;
+  border-top: 0;
+}
+
+#eight {
+  border-right: 0;
+  /* border-top: 0; */
+}
+#nine {
+  border-bottom: 0;
+  border-right: 0;
+}
+.playButton {
+  cursor: pointer;
+  padding: 18px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  position: absolute;
+}
+.overlay {
+  position: absolute;
+  z-index: -1;
+  height: 500px;
+  width: 500px;
+  /* background-color: red; */
+}
+.outputandbutton {
+  display: flex;
+  justify-content: space-between;
+}

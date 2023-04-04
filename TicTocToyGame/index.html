@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="overlay"></div>
+      <div class="animated_style">
+        <div class="js-container container" style="top: 0px !important"></div>
+      </div>
+      <div class="line"></div>
+      <div class="Game-main-div">
+        <div class="row">
+          <div id="one" onclick="playgame(event)" class="col"></div>
+          <div id="two" onclick="playgame(event)" class="col"></div>
+          <div id="three" onclick="playgame(event)" class="col"></div>
+        </div>
+        <div class="row">
+          <div id="four" onclick="playgame(event)" class="col"></div>
+          <div id="five" onclick="playgame(event)" class="col"></div>
+          <div id="six" onclick="playgame(event)" class="col"></div>
+        </div>
+        <div class="row">
+          <div id="saven" onclick="playgame(event)" class="col"></div>
+          <div id="eight" onclick="playgame(event)" class="col"></div>
+          <div id="nine" onclick="playgame(event)" class="col"></div>
+        </div>
+      </div>
+      <div class="outputandbutton"></div>
+      <h1 id="outputscreen"></h1>
+      <button class="playButton" onclick="play()">Play</button>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+  <script src="./animation.js"></script>
+</html>
